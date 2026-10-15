@@ -68,3 +68,21 @@ The Python script checks for missing order IDs, duplicate order IDs, non-positiv
 ## Portfolio summary
 
 I built a small end-to-end analytics workflow using synthetic e-commerce data. It combines SQL reporting, Python-based validation, KPI summaries, and a chart to demonstrate how I approach business questions and check data before sharing insights.
+
+## How to run it
+
+1. Install Python 3.10 or newer.
+2. Download or clone this repository.
+3. Open a terminal in the project folder and run:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. Run the analysis:
+
+   ```bash
+   python analyze.py
+   ```
+
+5. Open the generated files in the outputs/ folder.
