@@ -94,3 +94,7 @@ I built a small end-to-end analytics workflow using synthetic e-commerce data. I
 <button block variant="outline" onClick={() => GenUI.copy("## Monthly Revenue Trend\n\n
 ")}><icon name="copy" size="sm" inline/> Copy chart section</button>
 </box>
+
+## Monthly Revenue Trend
+
+![Monthly Revenue Trend](outputs/monthly_revenue.png)
