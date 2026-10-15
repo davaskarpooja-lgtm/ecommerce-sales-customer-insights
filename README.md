@@ -86,3 +86,11 @@ I built a small end-to-end analytics workflow using synthetic e-commerce data. I
    ```
 
 5. Open the generated files in the outputs/ folder.
+
+6. <box border radius="lg" padding={3} gap={2}>
+  <text preserveWhitespace>{`## Monthly Revenue Trend
+
+`}</text>
+<button block variant="outline" onClick={() => GenUI.copy("## Monthly Revenue Trend\n\n
+")}><icon name="copy" size="sm" inline/> Copy chart section</button>
+</box>
